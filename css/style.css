@@ -950,11 +950,12 @@ body::after {
 }
 
 .certificate-card {
-    display: flex;
-    gap: 20px;
-    align-items: flex-start;
+    display: grid;
+    gap: 10px;
+    align-content: start;
 
-    padding: 25px;
+    padding: 18px;
+    overflow: hidden;
 
     background: var(--surface);
     border: 1px solid var(--border);
@@ -964,36 +965,43 @@ body::after {
 }
 
 .certificate-card:hover {
-    transform: translateX(6px);
+    transform: translateY(-4px);
     border-color: var(--border-hover);
-}
-
-.certificate-icon {
-    min-width: 48px;
-    width: 48px;
-    height: 48px;
-
-    display: grid;
-    place-items: center;
-
-    background: rgba(56, 189, 248, 0.08);
-    color: var(--primary);
-    border-radius: 12px;
 }
 
 .certificate-card h3 {
     font-size: 1rem;
+    line-height: 1.45;
 }
 
 .certificate-card p {
     color: var(--text-secondary);
     font-size: 0.78rem;
-    margin: 5px 0 10px;
+    margin: -6px 0 0;
+}
+
+.certificate-preview {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 1.414;
+    overflow: hidden;
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    background: #fff;
+}
+
+.certificate-preview img {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
 }
 
 .certificate-card a {
     color: var(--primary);
     font-size: 0.75rem;
+    justify-self: start;
 }
 
 

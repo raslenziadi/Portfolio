@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 620" role="img" aria-labelledby="title desc">
+  <title id="title">Zephyr RTOS sensor monitoring, overheat scenario</title>
+  <desc id="desc">Temperature, humidity and light sensor readings across 120 cycles, with normal, warning and critical alarm zones.</desc>
+  <rect width="1000" height="620" fill="#fff"/>
+  <text x="500" y="32" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#222">Scenario OVERHEAT (background: NORMAL / WARNING / CRITICAL / INVALID)</text>
+  <g font-family="Arial, sans-serif" font-size="11" fill="#222" stroke="#222" stroke-width="1">
+    <rect x="76" y="54" width="876" height="174" fill="#fff"/>
+    <rect x="77" y="55" width="57" height="172" fill="#dcfce7" stroke="none"/><rect x="134" y="55" width="29" height="172" fill="#fef3c7" stroke="none"/><rect x="163" y="55" width="201" height="172" fill="#fbd5d5" stroke="none"/><rect x="364" y="55" width="129" height="172" fill="#dcfce7" stroke="none"/><rect x="493" y="55" width="29" height="172" fill="#fef3c7" stroke="none"/><rect x="522" y="55" width="187" height="172" fill="#fbd5d5" stroke="none"/><rect x="709" y="55" width="243" height="172" fill="#dcfce7" stroke="none"/>
+    <path d="M77 210 L105 192 L134 169 L163 145 L185 123 L195 116 L201 127 L224 114 L275 89 L305 72 L311 62 L364 109 L364 160 L380 166 L442 193 L493 207 L522 190 L551 169 L580 145 L600 123 L609 116 L615 127 L638 114 L680 89 L704 72 L709 62 L760 109 L880 160 L880 190 L952 211" fill="none" stroke="#ef233c" stroke-width="2"/>
+    <path d="M77 175 H952" stroke="#e7a900" stroke-dasharray="5 4"/><path d="M77 145 H952" stroke="#ef233c" stroke-dasharray="5 4"/>
+    <text x="48" y="143" text-anchor="end" stroke="none">40</text><text x="48" y="177" text-anchor="end" stroke="none">30</text><text x="48" y="213" text-anchor="end" stroke="none">25</text>
+    <text transform="translate(22 145) rotate(-90)" text-anchor="middle" stroke="none">temperature (°C)</text>
+    <rect x="76" y="247" width="876" height="150" fill="#fff"/>
+    <rect x="77" y="248" width="57" height="148" fill="#dcfce7" stroke="none"/><rect x="134" y="248" width="29" height="148" fill="#fef3c7" stroke="none"/><rect x="163" y="248" width="201" height="148" fill="#fbd5d5" stroke="none"/><rect x="364" y="248" width="129" height="148" fill="#dcfce7" stroke="none"/><rect x="493" y="248" width="29" height="148" fill="#fef3c7" stroke="none"/><rect x="522" y="248" width="187" height="148" fill="#fbd5d5" stroke="none"/><rect x="709" y="248" width="243" height="148" fill="#dcfce7" stroke="none"/>
+    <path d="M77 378 L105 333 L134 298 L148 378 L163 333 L177 298 L191 378 L205 333 L219 298 L233 378 L248 333 L262 298 L276 378 L291 333 L305 298 L319 378 L334 333 L348 298 L364 378 L379 333 L393 298 L407 378 L422 333 L436 298 L450 378 L465 333 L479 298 L493 378 L508 333 L522 298 L536 378 L551 333 L565 298 L580 378 L594 333 L608 298 L623 378 L637 333 L651 298 L666 378 L680 333 L694 298 L709 378 L723 333 L737 298 L752 378 L766 333 L780 298 L795 378 L809 333 L823 298 L838 378 L852 333 L866 298 L881 378 L895 333 L909 298 L924 378 L938 333 L952 298" fill="none" stroke="#16a34a" stroke-width="2"/>
+    <path d="M77 288 H952" stroke="#ef233c" stroke-dasharray="5 4"/><path d="M77 318 H952" stroke="#e7a900" stroke-dasharray="5 4"/>
+    <text x="48" y="291" text-anchor="end" stroke="none">85</text><text x="48" y="321" text-anchor="end" stroke="none">70</text><text x="48" y="380" text-anchor="end" stroke="none">50</text>
+    <text transform="translate(22 322) rotate(-90)" text-anchor="middle" stroke="none">humidity (%)</text>
+    <rect x="76" y="416" width="876" height="150" fill="#fff"/>
+    <rect x="77" y="417" width="57" height="148" fill="#dcfce7" stroke="none"/><rect x="134" y="417" width="29" height="148" fill="#fef3c7" stroke="none"/><rect x="163" y="417" width="201" height="148" fill="#fbd5d5" stroke="none"/><rect x="364" y="417" width="129" height="148" fill="#dcfce7" stroke="none"/><rect x="493" y="417" width="29" height="148" fill="#fef3c7" stroke="none"/><rect x="522" y="417" width="187" height="148" fill="#fbd5d5" stroke="none"/><rect x="709" y="417" width="243" height="148" fill="#dcfce7" stroke="none"/>
+    <path d="M77 556 L364 478 L374 556 L522 478 L532 556 L709 478 L719 556 L952 493" fill="none" stroke="#f97316" stroke-width="2"/>
+    <path d="M77 475 H952" stroke="#e7a900" stroke-dasharray="5 4"/><path d="M77 417 H952" stroke="#ef233c" stroke-dasharray="5 4"/>
+    <text x="48" y="421" text-anchor="end" stroke="none">1000</text><text x="48" y="479" text-anchor="end" stroke="none">800</text><text x="48" y="559" text-anchor="end" stroke="none">600</text>
+    <text transform="translate(22 492) rotate(-90)" text-anchor="middle" stroke="none">light (lux)</text>
+    <path d="M77 54 V566 H952 V54" fill="none" stroke="#222"/>
+    <text x="77" y="586" text-anchor="middle" stroke="none">0</text><text x="223" y="586" text-anchor="middle" stroke="none">20</text><text x="369" y="586" text-anchor="middle" stroke="none">40</text><text x="515" y="586" text-anchor="middle" stroke="none">60</text><text x="661" y="586" text-anchor="middle" stroke="none">80</text><text x="807" y="586" text-anchor="middle" stroke="none">100</text><text x="952" y="586" text-anchor="middle" stroke="none">120</text>
+    <text x="514" y="608" text-anchor="middle" stroke="none">cycle (1 cycle = 2 s)</text>
+    <rect x="838" y="60" width="104" height="35" fill="#fff" stroke="#ccc"/><path d="M846 72 H863" stroke="#e7a900" stroke-dasharray="4 3"/><text x="868" y="75" stroke="none">warning</text><path d="M846 85 H863" stroke="#ef233c" stroke-dasharray="4 3"/><text x="868" y="88" stroke="none">critical</text>
+  </g>
+</svg>
